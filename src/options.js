@@ -1,4 +1,4 @@
-const inquirer = require('inquirer')
+const inquirer = require('inquirer') // 动画
 const optionsArr = [{
   name: 'type',
   message: '你想创建一个什么类型得模板(vue|react|ssr)',

@@ -1,4 +1,4 @@
-const downLoad = require('download-git-repo') // 动画
+const downLoad = require('download-git-repo') // 下载
 const ora = require('ora') // 选择问答
 const url = '594677298/bigDataCli' // 包地址
 const clone = false

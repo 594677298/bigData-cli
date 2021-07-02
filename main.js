@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 
-const cmd = require('commander')
-const chalk = require('chalk')
-const downGit = require('./src/downLoad')
+const cmd = require('commander') // 交互
+const chalk = require('chalk')// 颜色
+const downGit = require('./src/downLoad') // 下载
 const options = require('./src/options')
 
 cmd.command('init').description('初始化模板').action(async (args) => {
