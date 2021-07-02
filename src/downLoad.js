@@ -1,8 +1,6 @@
-const downLoad = require('download-git-repo')
-// 动画
-const ora = require('ora')
-
-const url = '594677298/bigDataCli'
+const downLoad = require('download-git-repo') // 动画
+const ora = require('ora') // 选择问答
+const url = '594677298/bigDataCli' // 包地址
 const clone = false
 const downGit = (name) => {
   const spinner = ora('正在拉取模板...')
