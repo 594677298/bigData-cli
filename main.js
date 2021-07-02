@@ -11,6 +11,7 @@ cmd.command('init').description('初始化模板').action(async (args) => {
   // 填选项
   await options()
   // 拉取
+  require('./src/bigdata-cli')()
   await downGit(args)
 })
 cmd.parse(process.argv)
