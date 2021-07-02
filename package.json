@@ -1,0 +1,25 @@
+{
+  "name": "bigData-template-cli",
+  "version": "1.0.5",
+  "description": "bigData-template-cli脚手架",
+  "main": "bigData-cli.js",
+  "keywords": [
+    "张忠山"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "over": "git add . && git commit -m 'bigData-cli' && git push && npm publish"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  },
+  "bin": {
+    "zjs-cli": "main.js"
+  },
+  "author": "张忠山",
+  "license": "ISC"
+}
